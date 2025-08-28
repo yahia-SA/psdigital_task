@@ -1,0 +1,48 @@
+name: psdigital_task
+description: A new Flutter project with Clean Architecture by Abdalluh Essam
+# Flutter version on machine: 3.32.1
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc:
+  dio:
+  equatable: 
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.2.0
+  overlay_support: ^2.1.0
+  get_it: ^8.2.0
+  cupertino_icons:
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  freezed:
+  json_serializable:
+  bloc_test:
+  mockito:
+  flutter_lints:
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/icons/List/
+    - assets/lottie/
+    - assets/lang/
+  fonts:
+    - family: BikerDiamond
+      fonts:
+        - asset: assets/fonts/BERNIERRegular-Regular/BikerDiamond.otf
+          weight: 400
+    - family: TexasChickenGothicCnd
+      fonts:
+        - asset: assets/fonts/Texas Chicken Gothic Cnd/TexasChickenGothicCnd.ttf

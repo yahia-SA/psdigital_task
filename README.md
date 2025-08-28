@@ -7,9 +7,8 @@ The project demonstrates clean UI implementation, state management with Cubit, a
 
 ## Demo Video
 
-<video src="screen%20video/psdigital_task_video.gif" controls width="600">
-  Demo Video
-</video>
+![Demo](screen%20video/psdigital_task_video.gif)
+
 
 [Download the demo video](screen%20video/psdigital_task_video.mp4)
 
